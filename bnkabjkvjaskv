@@ -1,0 +1,19 @@
+[33mcommit f87286f530aa9413970527e2323ff09cf37ca8c2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mV1[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Khushi Singh <khushisanjeetsingh@gmail.com>
+Date:   Mon Dec 29 21:25:28 2025 +0530
+
+    Iteeration upto 11
+
+[1mdiff --git a/src/Main.java b/src/Main.java[m
+[1mindex cde23a2..4c831bd 100644[m
+[1m--- a/src/Main.java[m
+[1m+++ b/src/Main.java[m
+[36m@@ -6,7 +6,7 @@[m [mpublic class Main {[m
+         // to see how IntelliJ IDEA suggests fixing it.[m
+         System.out.printf("Hello and welcome!");[m
+ [m
+[31m-        for (int i = 1; i <= 5; i++) {[m
+[32m+[m[32m        for (int i = 1; i <= 11; i++) {[m
+             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint[m
+             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.[m
+             System.out.println("i = " + i);[m
